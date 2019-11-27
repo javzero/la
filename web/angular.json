@@ -93,8 +93,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/assets/styles.sass"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [ 
+                "src/assets/sass" 
+              ]
+            },
             "scripts": []
           }
         },
